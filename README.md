@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+# Uber Clone (React Native with Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clone of the Uber app built using React Native, Expo, NativeWind for styling, and Neon (Postgres) as the database. This app mimics the core functionalities of Uber, including ride booking, user authentication, and location tracking, and it's designed to be fully customizable.
 
-## Get started
+## Tech Stack
 
-1. Install dependencies
+- **Frontend**: 
+  - ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black)
+  - ![Expo](https://img.shields.io/badge/Expo-1B1F23?style=flat&logo=expo&logoColor=white)
+  
+- **Styling**: 
+  - ![NativeWind](https://img.shields.io/badge/NativeWind-34D399?style=flat&logo=tailwindcss&logoColor=white)
+  
+- **Backend**: 
+  - ![Postgres](https://img.shields.io/badge/Postgres-336791?style=flat&logo=postgresql&logoColor=white)
+  
+- **Authentication**: 
+  - ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **User Authentication**: Sign up, login, and logout functionality.
+- **Map Integration**: Real-time map to show driver and rider locations using Expo's Location API.
+- **Ride Booking**: Book rides from your current location to a destination.
+- **Driver and Rider Views**: Different screens and interactions for riders and drivers.
+- **Push Notifications**: Notifications for ride updates, cancellations, etc.
+- **Payment Integration**: Placeholder for payment system integration (e.g., Stripe or PayPal).
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
